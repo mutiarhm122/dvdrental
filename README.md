@@ -7,7 +7,7 @@ The *dvdrental* database is a relational database designed to support the operat
 - [Objective](#objective)
 - [Tools](#tools)
 - [ER Model](#ermodel)
-- [Star Schema Data Warehouse](#starschemadatawarehouse)
+- [Star Schema Data Warehouse](#star schema data warehouse)
 - [Steps](#steps)
 
 ## Objective
