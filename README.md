@@ -18,7 +18,7 @@ The *dvdrental* database is a relational database designed to support the operat
 - Perform ETL process to create data warehouse and data mart using Pentaho.
 
 ## Tools
-- pgadmin4
+- postgreSQL
 - DBeaver Community
 - Pentaho Data Integration (PDI)
 
@@ -29,7 +29,7 @@ The *dvdrental* database is a relational database designed to support the operat
 ![star schema dvdrental](https://github.com/user-attachments/assets/10c78190-9c35-4811-8dcf-5e7c549c4e8f)
 
 ## Steps
-1. Download the _dvdrental_ file (.tar) and restore the database using pgadmin4.
+1. Download the _dvdrental_ file (.tar) and restore the database using postgreSQL.
 2. Create a staging database (includes _staging_ and _log_ schema) by taking the _dvdrental_ database DDL (use DBeaver).
 3. Create a new database (e.g. dwh_dvdrental) with 3 schemas, for data warehouse (dwh), log table (log), and data mart (datamart).
 4. Open Pentaho and make a database connection on all satabases (dvdrental, staging, and dwh_dvdrental).
